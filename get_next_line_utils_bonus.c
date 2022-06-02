@@ -6,7 +6,7 @@
 /*   By: cthamsur <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/30 20:42:37 by cthamsur          #+#    #+#             */
-/*   Updated: 2022/04/30 20:49:37 by cthamsur         ###   ########.fr       */
+/*   Updated: 2022/06/01 22:46:18 by cthamsur         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ size_t	ft_strlen(char *str)
 	return (c);
 }
 
-char	*ft_strchar(char *s, int c)
+char	*ft_strchr(char *s, int c)
 {
 	int	i;
 
